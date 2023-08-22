@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{
+    height: 300px;
+    width: 500px;
+    background: green;
+    position: relative;
+    margin-left: 100px;
+}
+.two{
+    height: 100px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.three{
+    height: 500px;
+    width: 10px;
+    background: black;
+
+}
